@@ -1,0 +1,78 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+    font-family: 'Itim', cursive;
+    color: #ffff;
+}
+
+#main {
+	background: url('https://images.unsplash.com/photo-1593371256584-ac70d0ab43d1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTh8fHxlbnwwfHx8fA%3D%3D&w=1000&q=80');
+	width: 100%;
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: center;
+	align-items: center;
+    overflow-x: hidden;
+}
+#header-bowie {
+	padding: 80px 0px 45px;
+	text-align: center;
+    font-size: 26px;
+    
+}
+#title {
+	font-size: 50px;
+	margin-bottom: 30px;
+}
+#img-div {
+	width: 90%;
+	max-width: 800px;
+	background-color: pink;
+	text-align: center;
+	padding: 15px;
+    border-radius: 20px;
+}
+#image {
+	margin: auto;
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+#img-caption {
+	margin: 15px auto;
+    color: #202020;
+    font-size: 26px;
+}
+#tribute-info {
+	width: 60%;
+	max-width: 800px;
+	margin: 50px auto;
+}
+#tribute-info h2 {
+	font-size: 30px;
+	text-align: center;
+	margin: 25px auto 50px;
+}
+#tribute-info li {
+	margin-bottom: 20px;
+	line-height: 28px;
+    font-size: 20px;
+}
+.quote {
+	margin: 75px auto 28px;
+	line-height: 20px;
+    font-size: 22px;
+}
+.quote h4 {
+	margin-top: 25px;
+    margin-left: 30spx;
+}
+#footer-bowie {
+	margin-bottom: 70px;
+}
+
+#footer-bowie p{
+    font-size: 22px;
+    color: pink;
+}
